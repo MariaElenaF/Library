@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atreiaincercare.CautarePretController">
+   <top>
+      <HBox prefHeight="66.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="76.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="ButonInapoi5" mnemonicParsing="false" onAction="#ButonInapoi5" prefHeight="75.0" prefWidth="134.0" style="-fx-background-color: lightblue;" text="&lt;">
+                     <font>
+                        <Font name="Britannic Bold" size="38.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" prefHeight="76.0" prefWidth="467.0" style="-fx-background-color: lightblue;" text="Preturi">
+                     <font>
+                        <Font name="Book Antiqua" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="300.0" prefWidth="204.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="347.0" prefWidth="204.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="304.0" style="-fx-border-color: gray;" text="Pret">
+                     <font>
+                        <Font name="Book Antiqua" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="33.0" prefWidth="297.0" text="10 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="297.0" text="12 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="297.0" text="16 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="297.0" text="18 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="297.0" text="20 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="297.0" text="25 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="297.0" text="32 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="297.0" text="38 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="297.0" text="40 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="297.0" text="42 RON:">
+                     <font>
+                        <Font name="Calisto MT" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="300.0" prefWidth="452.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="340.0" prefWidth="396.0">
+               <children>
+                  <VBox prefHeight="361.0" prefWidth="396.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="38.0" prefWidth="404.0" style="-fx-border-color: gray;" text="Carte">
+                           <font>
+                              <Font name="Book Antiqua" size="27.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="460.0" text="   Poezii">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="27.0" prefWidth="453.0" text="   Poezii alese">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="28.0" prefWidth="430.0" text="   Ion">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="449.0" text="   Baltagul">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="29.0" prefWidth="433.0" text="   Moara cu noroc">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="36.0" prefWidth="451.0" text="   Enigma Otiliei">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="27.0" prefWidth="451.0" text="   Morometii Vol 1-2">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="444.0" text="   Matilda">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="416.0" text="   Toporisca">
+                           <font>
+                              <Font name="Calisto MT" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="440.0" text="   Magisterium: Vol 1/ Vol 2/ Vol 3">
+                           <font>
+                              <Font name="Calisto MT" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atreiaincercare.ImprumutariController">
+   <top>
+      <HBox prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: lightgray; -fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="ButonInapoi" mnemonicParsing="false" onAction="#intoarceFereastra" prefHeight="82.0" prefWidth="142.0" style="-fx-background-color: lightblue; -fx-border-color: black;" text="&lt;">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+            <HBox prefHeight="70.0" prefWidth="457.0" style="-fx-background-color: lightblue; -fx-border-color: black;">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="457.0" style="-fx-background-color: lightblue;" text="Gestionarea imprumuturilor" textAlignment="JUSTIFY">
+                     <font>
+                        <Font name="Century" size="32.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" right="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="330.0" prefWidth="187.0" style="-fx-background-color: lightblue;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="330.0" prefWidth="215.0" style="-fx-border-color: black;">
+               <children>
+                  <Label graphicTextGap="5.0" prefHeight="28.0" prefWidth="190.0" style="-fx-border-color: black;" text="Carti:">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="324.0" prefWidth="187.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="194.0" style="-fx-border-color: black;" text="Poezii">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="190.0" style="-fx-border-color: black;" text="Poezii alese">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="203.0" style="-fx-border-color: black;" text="Morometii">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="200.0" style="-fx-border-color: black;" text="Ion">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="187.0" style="-fx-border-color: black;" text="Moara cu noroc">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="Enigma Otiliei">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="223.0" style="-fx-border-color: black;" text="Baltagul">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" text="Toporisca">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="216.0" style="-fx-border-color: black;" text="Matilda">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: black;" text="Magisterium *">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="230.0" style="-fx-border-color: black;" text="Magisterium **">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="187.0" style="-fx-border-color: black;" text="Magisterium ***">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="356.0" prefWidth="281.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="413.0" prefWidth="281.0" style="-fx-border-color: black;">
+               <children>
+                  <Label alignment="CENTER" graphicTextGap="5.0" prefHeight="28.0" prefWidth="324.0" style="-fx-border-color: black;" text="Contacte">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="354.0" prefWidth="281.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="373.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="367.0" style="-fx-border-color: black;" text="Marian: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="395.0" style="-fx-border-color: black;" text="Elena: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="378.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="382.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="321.0" style="-fx-border-color: black;" text="Diana: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="340.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="386.0" style="-fx-border-color: black;" text="Ana: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="281.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="281.0" style="-fx-border-color: black;" text="Adrian: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="281.0" style="-fx-border-color: black;" text="Bogdan: 07xx xxx xxx">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="281.0" style="-fx-border-color: black;" text="-">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="394.0" prefWidth="132.0" style="-fx-border-color: black;">
+               <children>
+                  <Label alignment="CENTER" graphicTextGap="5.0" prefHeight="28.0" prefWidth="190.0" style="-fx-border-color: black;" text="Stare">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="344.0" prefWidth="132.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="194.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="190.0" style="-fx-border-color: black;" text="Imprumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="203.0" style="-fx-border-color: black;" text="Impumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="Impumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="223.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" text="Impumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="216.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="221.0" style="-fx-border-color: black;" text="Impumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="230.0" style="-fx-border-color: black;" text="Impumutat">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Disponibil">
+                           <font>
+                              <Font name="Centaur" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

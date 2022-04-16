@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="231.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atreiaincercare.CartiController">
+   <children>
+      <ImageView fx:id="imagineSrc" fitHeight="252.0" fitWidth="191.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imagini/778255.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </ImageView>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="titlu" alignment="TOP_CENTER" prefHeight="30.0" prefWidth="221.0" text="Ion">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="autor" alignment="TOP_CENTER" prefHeight="38.0" prefWidth="259.0" text="Liviu Rebreanu">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>

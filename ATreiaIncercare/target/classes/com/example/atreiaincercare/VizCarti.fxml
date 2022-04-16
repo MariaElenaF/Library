@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="cutie" prefHeight="512.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atreiaincercare.VizCartiController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="514.0">
+         <children>
+            <AnchorPane prefHeight="512.0" prefWidth="514.0">
+               <children>
+                  <ImageView fx:id="Poza" fitHeight="227.0" fitWidth="201.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../imagini/poezii-mihai-eminescu_1_fullsize.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="Titlu" layoutX="238.0" layoutY="14.0" prefHeight="39.0" prefWidth="274.0" text="Titlu: Poezii">
+                     <font>
+                        <Font name="Book Antiqua" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Editura" layoutX="238.0" layoutY="96.0" prefHeight="45.0" prefWidth="180.0" text="Editura: Corint Books">
+                     <font>
+                        <Font name="Book Antiqua" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Autor" layoutX="238.0" layoutY="53.0" prefHeight="44.0" prefWidth="180.0" text="Autor: Mihai Eminescu">
+                     <font>
+                        <Font name="Book Antiqua" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="An" layoutX="238.0" layoutY="133.0" prefHeight="45.0" prefWidth="180.0" text="An publicatie 2003">
+                     <font>
+                        <Font name="Book Antiqua" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gen" layoutX="238.0" layoutY="166.0" prefHeight="42.0" prefWidth="180.0" text="Gen: Poezii">
+                     <font>
+                        <Font name="Book Antiqua" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pret" layoutX="238.0" layoutY="199.0" prefHeight="48.0" prefWidth="146.0" text="Pret: 10 RON">
+                     <font>
+                        <Font name="Book Antiqua" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Descriere" layoutX="14.0" layoutY="273.0" prefHeight="227.0" prefWidth="491.0" text="&quot;Eminescu este nu numai cel mai mare scriitor roman. El este o aparitie aproape neexplicabila in literatura noastra. El a cazut in sarmana noastra literatura de la 1870 ca un meteor din alte lumi. Intamplarea a facut ca unul din cei mai mari poeti lirici ai se colului al XIX-lea, secol atat de bogat, cel mai bogat in lirici, sa se nasca la noi, intr-un colt din fundul Moldovei.&quot;  -GARABET IBRAILEANU" wrapText="true">
+                     <font>
+                        <Font name="Corbel Light" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="DescriereTip" layoutX="14.0" layoutY="247.0" prefHeight="30.0" prefWidth="136.0" text="Descriere:">
+                     <font>
+                        <Font name="Corbel Light" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

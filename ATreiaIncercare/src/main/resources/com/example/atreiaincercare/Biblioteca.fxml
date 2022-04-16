@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atreiaincercare.BibliotecaController">
+   <top>
+      <AnchorPane prefHeight="59.0" prefWidth="1200.0" style="-fx-background-color: lightblue;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="5.0" layoutY="-1.0" prefHeight="88.0" prefWidth="215.0" text="Biblioteca">
+               <font>
+                  <Font name="French Script MT" size="67.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="imprumut" layoutY="426.0" mnemonicParsing="false" onAction="#ButonImprumut" prefHeight="80.0" prefWidth="214.0" style="-fx-background-color: lightgray;" text="Carti Imprumutate">
+               <font>
+                  <Font name="Century Gothic" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonAutori" layoutX="3.0" layoutY="43.0" mnemonicParsing="false" onAction="#ButonCautareAutori" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgray;" text="Autori               &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonEditura" layoutX="3.0" layoutY="95.0" mnemonicParsing="false" onAction="#ButonCautareEditura" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgrey;" text="Editura             &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonAni" layoutX="2.0" layoutY="146.0" mnemonicParsing="false" onAction="#ButonCautareAni" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgray;" text="An de publicatie &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonCategorii" layoutX="3.0" layoutY="199.0" mnemonicParsing="false" onAction="#ButonCautareCategorii" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgrey;" text="Categorii           &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonPret" layoutX="3.0" layoutY="256.0" mnemonicParsing="false" onAction="#ButonCautarePret" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgrey;" text="Pret                  &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButonCarti" layoutX="2.0" layoutY="316.0" mnemonicParsing="false" onAction="#ButonCautareCarti" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: lightgrey;" text="Vizualizare carti &gt;">
+               <font>
+                  <Font name="Britannic Bold" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane prefHeight="512.0" prefWidth="803.0">
+               <content>
+                  <GridPane fx:id="carteConteiner" prefHeight="0.0" prefWidth="0.0">
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
